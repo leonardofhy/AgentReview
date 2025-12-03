@@ -17,3 +17,4 @@ tenacity
 openai
 gradio
 jupyter
+python-dotenv
