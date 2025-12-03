@@ -6,7 +6,7 @@ export AZURE_ENDPOINT=...  # Format: https://<your-endpoint>.openai.azure.com/
 export AZURE_DEPLOYMENT=...  # Your Azure OpenAI deployment here
 export AZURE_OPENAI_KEY=... # Your Azure OpenAI key here
 
-python run_paper_review_cli.py --conference ICLR2024 \
-    --openai_client_type azure_openai \
+python run_paper_review_cli.py --conference ICLR2025 \
+    --openai_client_type openai \
     --data_dir data \
     --experiment_name malicious_Rx1
