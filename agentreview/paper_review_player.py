@@ -87,8 +87,7 @@ class PaperExtractorPlayer(Player):
         self.paper_decision = paper_decision
         self.conference: str = conference
         
-        if paper_pdf_path is not None:
-            self.paper_pdf_path = paper_pdf_path
+        self.paper_pdf_path = paper_pdf_path
 
     def act(self, observation: List[Message]) -> str:
         """
